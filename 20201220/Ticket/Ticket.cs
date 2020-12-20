@@ -28,7 +28,15 @@ namespace Ticket
 
         public Ticket(int distance)
         {
-            this.distance = distance;
+            if (distance<0)
+            {
+                this.distance = 0;
+            }
+            else
+            {
+                this.distance = distance;
+            }
+            
         }
 
         public double GetPrise()
@@ -47,6 +55,11 @@ namespace Ticket
             {
                 Console.WriteLine("八折");
                 return 1 * distance * 0.8;
+            }
+            else if (distance==0)
+            {
+                Console.WriteLine("你没有乘车");
+                return 0;
             }
             else
             {

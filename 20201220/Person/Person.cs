@@ -74,9 +74,10 @@ namespace Person
             this.Weight = weight;
             this.Professional = professional;
         }
-        //public Person(string Name):this(name,"","",0,0) {
-            
-        //}
+        public Person(string name) : this(name, "", "", 0, 0, "")
+        {
+
         }
+    }
     
 }
