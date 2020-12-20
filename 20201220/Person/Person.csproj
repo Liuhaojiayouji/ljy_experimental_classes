@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8CED68C0-5329-4398-8FEC-1F05D5FF8730}</ProjectGuid>
+    <ProjectGuid>{2B313307-FAFC-4972-9B27-161DB81B7F32}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>输出学生的姓名__1</RootNamespace>
-    <AssemblyName>输出学生的姓名__1</AssemblyName>
+    <RootNamespace>Person</RootNamespace>
+    <AssemblyName>Person</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
