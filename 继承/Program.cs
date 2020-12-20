@@ -13,11 +13,12 @@ namespace 继承
             new Student("asd","中侨",12, "男");
         
             Person person = new Student("asd", "中侨", 12, "男");
-            Student[] students =
-             {
-                new Student("asd","中侨",12, "男")
-        };
-            students[0].ToString(); Console.ReadKey();
+        //    Student[] students =
+        //     {
+        //        new Student("asd","中侨",12, "男")
+        //};
+        //    students[0].ToString(); 
+            Console.ReadKey();
         }
     }
 }

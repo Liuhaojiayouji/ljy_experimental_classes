@@ -27,24 +27,26 @@ namespace Person
             //person2.about();
             //person2.Sayhello();
 
-            Chinese chinese = new Chinese("姓名", "xb", "guojia");
-            chinese.Sayhello();
-            chinese.Spec();
-            Japanese japanese = new Japanese("姓名", "xb", "japanese");
-            japanese.Sayhello();
-            japanese.Spec();
-            American american = new American("姓名", "xb", "usa");
-            american.Sayhello();
-            american.Spec();
+            //Chinese chinese = new Chinese("姓名", "xb", "guojia");
+            //chinese.Sayhello();
+            //chinese.Spec();
+            //Japanese japanese = new Japanese("姓名", "xb", "japanese");
+            //japanese.Sayhello();
+            //japanese.Spec();
+            //American american = new American("姓名", "xb", "usa");
+            //american.Sayhello();
+            //american.Spec();
 
-            Sout_koreans sout_Koreans = new Sout_koreans("姓名", "xb", "sou");
-            sout_Koreans.Sayhello();
-            sout_Koreans.Spec();
+            //Sout_koreans sout_Koreans = new Sout_koreans("姓名", "xb", "sou");
+            //sout_Koreans.Sayhello();
+            //sout_Koreans.Spec();
 
 
-            Italian italian = new Italian("姓名", "xb", "italian"); 
-            italian.Sayhello();
-            italian.Spec();
+            //Italian italian = new Italian("姓名", "xb", "italian"); 
+            //italian.Sayhello();
+            //italian.Spec();
+            Person person = new Italian("asd", "nan", "asd");
+            person.Spec();
             Console.ReadKey();
         }
     }

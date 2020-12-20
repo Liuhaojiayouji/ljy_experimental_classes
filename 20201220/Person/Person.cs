@@ -78,9 +78,9 @@ namespace Person
         {
 
         }
-        public void Spec()
+       virtual public void Spec()
         {
-            Console.WriteLine();
+           // Console.WriteLine("我是人类");
         }
     }
     

@@ -8,7 +8,7 @@ namespace Person
 {
     class Italian:Person
     {
-        public void Spec()
+override        public void Spec()
         {
             Console.WriteLine("文艺复兴");
         }

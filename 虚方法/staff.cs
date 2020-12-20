@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Person
+namespace 虚方法
 {
-    class Student:School
+    class staff
     {
+        public virtual void checkin()
+        {
 
+        }
     }
 }
