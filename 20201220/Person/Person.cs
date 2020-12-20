@@ -8,11 +8,11 @@ namespace Person
 {
     class Person
     {
-       private string name;
-       private string sex;
-       private string countrie;
-       private int height;
-       private int weight;
+        private string name;
+        private string sex;
+        private string countrie;
+        private int height;
+        private int weight;
         private string professional;
         public string Name { get; set; }
         public string Countrie
@@ -74,6 +74,9 @@ namespace Person
             this.Weight = weight;
             this.Professional = professional;
         }
-
-    }
+        //public Person(string Name):this(name,"","",0,0) {
+            
+        //}
+        }
+    
 }
