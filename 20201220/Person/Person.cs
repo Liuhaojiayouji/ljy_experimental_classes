@@ -74,9 +74,13 @@ namespace Person
             this.Weight = weight;
             this.Professional = professional;
         }
-        public Person(string name) : this(name, "", "", 0, 0, "")
+        public Person(string name,string sex, string countrie) : this(name, sex, countrie, 0, 0, "")
         {
 
+        }
+        public void Spec()
+        {
+            Console.WriteLine();
         }
     }
     

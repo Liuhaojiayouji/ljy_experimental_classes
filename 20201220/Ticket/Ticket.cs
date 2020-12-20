@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Ticket
 {
@@ -28,7 +25,7 @@ namespace Ticket
 
         public Ticket(int distance)
         {
-            if (distance<0)
+            if (distance < 0)
             {
                 this.distance = 0;
             }
@@ -36,7 +33,7 @@ namespace Ticket
             {
                 this.distance = distance;
             }
-            
+
         }
 
         public double GetPrise()
@@ -56,7 +53,7 @@ namespace Ticket
                 Console.WriteLine("八折");
                 return 1 * distance * 0.8;
             }
-            else if (distance==0)
+            else if (distance == 0)
             {
                 Console.WriteLine("你没有乘车");
                 return 0;
