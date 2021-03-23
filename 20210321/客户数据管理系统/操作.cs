@@ -7,20 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using SQLHelper;
 
 namespace 客户数据管理系统
 {
-    public partial class Form1 : Form
+    public partial class 操作 : Form
     {
-        public Form1()
+        public 操作()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
