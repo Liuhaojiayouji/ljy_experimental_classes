@@ -1,7 +1,7 @@
 ﻿
 namespace 客户数据管理系统
 {
-    partial class 注册
+    partial class 修改密码
     {
         /// <summary>
         /// Required designer variable.
@@ -31,8 +31,6 @@ namespace 客户数据管理系统
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtName = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtPasswordAgain = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -41,62 +39,47 @@ namespace 客户数据管理系统
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(71, 106);
+            this.label1.Location = new System.Drawing.Point(54, 67);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 15);
+            this.label1.Size = new System.Drawing.Size(67, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "账号";
+            this.label1.Text = "修改密码";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(71, 167);
+            this.label2.Location = new System.Drawing.Point(54, 150);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 15);
+            this.label2.Size = new System.Drawing.Size(67, 15);
             this.label2.TabIndex = 1;
-            this.label2.Text = "密码";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(74, 221);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 15);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "确认密码";
-            // 
-            // txtName
-            // 
-            this.txtName.Location = new System.Drawing.Point(158, 106);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(204, 25);
-            this.txtName.TabIndex = 3;
+            this.label2.Text = "确认密码";
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(158, 167);
+            this.txtPassword.Location = new System.Drawing.Point(183, 64);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(204, 25);
-            this.txtPassword.TabIndex = 4;
+            this.txtPassword.Size = new System.Drawing.Size(149, 25);
+            this.txtPassword.TabIndex = 2;
             // 
             // txtPasswordAgain
             // 
-            this.txtPasswordAgain.Location = new System.Drawing.Point(158, 218);
+            this.txtPasswordAgain.Location = new System.Drawing.Point(183, 150);
             this.txtPasswordAgain.Name = "txtPasswordAgain";
-            this.txtPasswordAgain.Size = new System.Drawing.Size(204, 25);
-            this.txtPasswordAgain.TabIndex = 5;
+            this.txtPasswordAgain.Size = new System.Drawing.Size(149, 25);
+            this.txtPasswordAgain.TabIndex = 4;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(190, 304);
+            this.button1.Font = new System.Drawing.Font("宋体", 20F);
+            this.button1.Location = new System.Drawing.Point(448, 65);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 63);
-            this.button1.TabIndex = 6;
+            this.button1.Size = new System.Drawing.Size(108, 110);
+            this.button1.TabIndex = 5;
             this.button1.Text = "确认";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // 注册
+            // 修改密码
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -104,13 +87,11 @@ namespace 客户数据管理系统
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtPasswordAgain);
             this.Controls.Add(this.txtPassword);
-            this.Controls.Add(this.txtName);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "注册";
-            this.Text = "注册";
-            this.Load += new System.EventHandler(this.注册_Load);
+            this.Name = "修改密码";
+            this.Text = "修改密码";
+            this.Load += new System.EventHandler(this.修改密码_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -120,8 +101,6 @@ namespace 客户数据管理系统
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.TextBox txtPasswordAgain;
         private System.Windows.Forms.Button button1;

@@ -73,5 +73,10 @@ namespace 客户数据管理系统
 
 
         }
+
+        private void 注册_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

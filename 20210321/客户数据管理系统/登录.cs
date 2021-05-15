@@ -14,6 +14,7 @@ namespace 客户数据管理系统
 {
     public partial class 登录界面 : Form
     {
+        public static string MName;
         string ConnStr = ConfigurationManager.ConnectionStrings["CommConn"].ConnectionString;
         public 登录界面()
         {
@@ -41,24 +42,25 @@ namespace 客户数据管理系统
                         using (SqlConnection SQLConn1 = new SqlConnection(ConnStr))
                         {
                             using (SqlCommand SQLCmd1 = new SqlCommand(SQLStr1, SQLConn1))
-                        {
-                            SQLConn1.Open();
-                            int Resultcount1 = Convert.ToInt32(SQLCmd1.ExecuteScalar());
-                            if (Resultcount1 > 0)
                             {
-                                MessageBox.Show("登陆成功");
+                                SQLConn1.Open();
+                                int Resultcount1 = Convert.ToInt32(SQLCmd1.ExecuteScalar());
+                                if (Resultcount1 > 0)
+                                {
+                                    MessageBox.Show("登陆成功");
+                                    MName = txtAccountNnumber.Text;
                                     操作 operating = new 操作();
                                     this.Hide();
                                     operating.ShowDialog();
                                     this.Dispose();
-                            }
-                            else
-                            {
-                                MessageBox.Show("密码错误");
+                                }
+                                else
+                                {
+                                    MessageBox.Show("密码错误");
 
+                                }
                             }
                         }
-                    }
                     }
                     else
                     {
@@ -76,5 +78,6 @@ namespace 客户数据管理系统
             registered.ShowDialog();
             this.Dispose();
         }
+
     }
 }
